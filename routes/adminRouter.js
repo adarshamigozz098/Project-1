@@ -48,8 +48,6 @@ adminRouter.post('/category/listOrUnlist',adminController.listOrUnlist)
 adminRouter.post('/block-user', adminController.blockUnblockUser);
 adminRouter.get('/edit', adminController.loadeditCategory);
 adminRouter.post('/edit', adminController.editCategory);
-
-
 adminRouter.get('/products',productController.loadProducts)
 adminRouter.get('/products/addProducts', productController.loadAddProducts)
 adminRouter.post('/products/addProducts',upload, productController.addProducts)
